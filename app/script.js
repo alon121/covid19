@@ -21,7 +21,7 @@ function init() {
                 let cell1 = newRow.insertCell(0);
                 let cell2 = newRow.insertCell(1);
                 cell1.textContent = 'recovery percaentage';
-                cell2.textContent = (parseFloat(dataTable.recovered_closed_cases.replace(/,/g, '')) /parseFloat(dataTable.total_cases.replace(/,/g, ''))).toFixed(2)*100 + '%';
+                cell2.textContent = (parseFloat(dataTable.recovered_closed_cases.replace(/,/g, '')) /parseFloat(dataTable.total_cases.replace(/,/g, ''))).toFixed(3)*100 + '%';
                 document.body.appendChild(table);
             })()
         })
