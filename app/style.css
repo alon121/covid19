@@ -1,0 +1,4 @@
+table,td{
+    border: 1px solid;
+}
+table > tbody >  tr:last-child { background:#ff0000; }
